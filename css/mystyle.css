@@ -1,0 +1,837 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+font-family : 'Gabriola';
+src: url('../fonts/Gabriola.ttf')  format('truetype'); */
+}
+
+@font-face {
+font-family : 'Montserrat';
+src: url('../fonts/Montserrat-Bold.ttf')  format('truetype'); */
+}
+
+@font-face {
+  font-family : 'Helvetica';
+  src: url('../fonts/HelvLight Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaNeue-Italic.ttf') format('truetype');
+}
+
+.navbar-brand{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+.custom .btn-custom,
+.custom .btn-custom:focus
+{
+  margin-top: 12px;
+  background: #e51d39;
+  vertical-align: middle;
+  /* box-shadow: 0px 44px 1px rgba(255,255,255,.56); */
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.56);
+  -moz-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.56);
+  box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.56);
+  border : none;
+  height : 45px;
+  width : 140px;
+  color: white;
+
+}
+
+
+.custom .btn-custom a, .custom .btn-custom a:focus {
+  color: white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.56);
+  -moz-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.56);
+  box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.56);
+}
+
+
+body.custom {
+  overflow-x: hidden;
+}
+
+
+
+.btn-custom:hover {
+  background-color: #ef1635;
+  color: white;
+}
+
+
+#navigation.navbar {
+  height: 69px;
+  width: 100%;
+  background: rgba(87,87,87,.85);
+  color: #000000;
+  font-color :#000000;
+  border: transparent;
+
+}
+
+.containerimg {
+  width: 100%;
+}
+
+.containerimg  .img-responsive {
+    width: 100%;
+    z-index: -1;
+  }
+
+.proxifont {
+	font-family: 'Proxima Nova', regular;
+	font-size:15px;
+	color :#fff;
+
+}
+
+.gabrifont {
+  font-family: 'Gabriola', regular;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+
+}
+
+.helvfont {
+  font-family: 'Helvetica', regular;
+  color :#000;
+
+}
+
+.helvobl {
+  font-family: 'HelveticaNeue-Italic', HelveticaNeue-Italic;
+
+  color: #000;
+}
+
+
+.transparent {
+	background-color: transparent;
+}
+
+a.button
+{
+
+background-color:#e51d39;
+}
+
+a.button:hover
+{
+
+
+background-color:#ef1635;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: none;
+}
+
+/* .navbar-nav a {
+	padding-top: 25px;
+	padding bottom : -10px;
+}
+ */
+
+.dropdown.open{
+	color: #000;
+  margin-left: -3px;
+}
+
+.dropdown{
+  margin-left: -3px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+{
+	background-color: #282828;
+	height: 69px;
+	color: #e51d39;
+	
+}
+
+.homenav {
+  padding-right: 5px !important;
+}
+
+.btn-default {
+	color: white;
+}
+
+.home{
+	padding-left: 20px;
+}
+.nav > li > a{
+	padding-left: 6px;
+}
+
+a.dropdown-toggle {
+	display: inline-block;
+}
+
+.nav > li > a {
+	display: inline-block;
+}
+
+.navbar-toggle {
+	margin-top: 17px;
+}
+
+.navbar-toggle {
+	border-color: white;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color: #FFF;
+}
+
+.dropdown-menu {
+	background-color: #282828;
+	margin-right: 32px;
+}
+
+.dropdown-menu > li > a {
+	color: #fff;
+  padding-top: 20px;
+}
+
+.dropdown-menu {
+	margin-left: -107px;
+	padding-left: 35px;
+	padding-bottom: 25px;
+	padding-right: 35px;
+  border-top: none;
+}
+
+
+.b-centre {
+	margin: 0 auto;
+	display: block;
+}
+
+.homepad {
+	padding-right: 30px;
+	padding-top: 24px;
+	display: inline-block;
+}
+
+.getintouch {
+	margin: 12px auto;
+	display: block;
+}
+
+a:hover, a:focus {
+	color: #e51d39;
+	text-decoration: none;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: #282828;
+	display: inline-block;
+}
+
+.navbar-right
+{
+	width: 100%;
+}
+
+.t-centre {
+	text-align: center;
+  display: inline-block;
+}
+
+.btn {
+	padding : 0px 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-nav > li > a {
+	padding-top: 27px;
+}
+
+.t-right {
+	text-align: right;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #e51d39;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #e51d39;
+	text-decoration: none;
+	background: none;
+}
+
+.img-overlay {
+  z-index: 10;
+  color: white;
+  top: 147.5px;
+  position: absolute;
+  left: 50%;
+  margin-left: -675px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.img-responsive {
+  top: 0 !important;
+  z-index: -100;
+
+}
+
+.b-first {
+  font-family: 'Helvetica', regular;
+  font-size: 36px;
+}
+
+.b-second {
+  font-family: 'Montserrat', bold;
+  font-size: 60px;
+  text-align: center;
+}
+
+.b-third {
+  font-family: 'Montserrat', bold;
+  font-size: 60px;
+  text-align: center;
+}
+
+.montfont {
+  font-family: 'Montserrat', regular;
+}
+
+.firsthead {
+  padding-top: 30px;
+  font-size:35px;
+}
+
+.secondhead {
+    font-size: 20px;
+    margin-top : 7px;
+}
+
+.thirdhead {
+  font-size: 20px;
+  color: #000;
+  padding-top: 7px;
+}
+
+.container1 {
+  padding-bottom: 40px;
+}
+
+.container2 {
+  border-top: 1px solid;
+  border-color: #E6E6E6; 
+  padding-top: 40px;
+}
+
+
+
+
+.redtext {
+  color: #e51d39;
+  font-size: 20px;
+}
+
+.greytext {
+  color: #161616;
+  font-size: 15px;
+}
+
+.seperator:after {
+content: "";
+position: absolute;
+width: 1px;
+height: 45px;
+background: rgba(47,46,43,0.50);
+top: 13px;
+right: -9px;
+box-shadow: 1px 0 0 rgba(255,255,255,0.14);
+}
+
+.seperator2:after {
+content: "";
+position: absolute;
+width: 1px;
+height: 45px;
+background: rgba(47,46,43,0.50);
+top: 13px;
+right: 0px;
+box-shadow: 1px 0 0 rgba(255,255,255,0.14);
+}
+
+.arrow {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  vertical-align: middle;
+  background-image: url('../Images/down.png');
+  background-repeat: no-repeat;
+}
+
+.dropdown-toggle:hover .arrow{
+  background-image: url('../Images/downred.png');
+  background-repeat: no-repeat;
+}
+
+.dropdown-toggle:focus .arrow{
+  background-image: url('../Images/downred.png');
+  background-repeat: no-repeat;
+}
+
+
+.homecontain {
+  padding-right: 0px;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.head1 {
+  padding-top: 30px;
+  font-size:30px;
+  color: #000;
+}
+
+.head2 {
+  padding-top: 30px;
+  font-size:20px;
+  color: #000;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.navlinks {
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+}
+
+.navtitle {
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.navelements a, li {
+  font-size: 15px;
+  color: #b7b7b7;
+  position: relative;
+}
+
+.dropdown-menu > li > a {
+  font-size: 15px;
+}
+
+.list a, li {
+  color: #161616;
+  font-size: 18px;
+}
+
+.navelements a:hover {
+  color: #e51d39;
+}
+
+.navelements li {
+  color: #000000;
+}
+
+.img1 {
+  padding-left: 0px;
+}
+
+.wallotext {
+  font-size: 16px;
+  line-height: 24px; 
+  color: #000000;
+  text-align: justify;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.padme {
+  padding-bottom: 40px;
+}
+
+.quote {
+  padding-top: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.quote1 {
+  line-height: 35px;
+  color: #000;
+  font-size: 30px;
+}
+
+.qname {
+  font-size: 15px;
+}
+
+.navlinks li {
+  padding-bottom: 10px;
+}
+
+.boardot {
+  padding-top: 40px;
+}
+
+.BKC {
+  border-top: 1px solid;
+  border-color: #E6E6E6;
+  padding-bottom: 40px;
+}
+
+/* .dropdown-menu > li > a:before {
+  content: "";
+  background: #3d3d3d;
+  width: 90%;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  margin-left: -42%;
+  bottom: -4px;
+}
+
+.dropdown-menu > li:hover > a:before {
+  background-color: #e51d39;
+} */
+.dropdown-menu
+{
+  padding: 10px 20px;
+  padding-bottom: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.imgrow2 {
+  padding-top: 30px;
+}
+
+.emailtitl {
+  padding-top: 30px;
+  font-size:25px;
+}
+
+.mailadd a {
+  font-size: 20px;
+  color: #535353;
+}
+
+.emailcont {
+  padding-bottom: 40px;
+  border-bottom: 1px solid;
+  border-color: #E6E6E6;
+}
+
+.form-group {
+  width: auto;
+}
+
+.form-horizontal {
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.form-control.namebox {
+  width: 47%;
+}
+
+/* .form-horizontal .form-group {
+  margin-left: 15px;  
+} */
+
+.emailform {
+  width: 100%;
+}
+
+.form-horizontal .form-group{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.form-horizontal .row {
+    margin-left: 0px;
+    margin-right: 0px;  
+}
+
+.form-control:focus {
+  border-color: #e51d39;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(229, 29, 57, .6);
+}
+
+.fineprint {
+  font-size: 13px;
+}
+
+.buttonpad {
+  padding: 0 0 !important;
+  margin-left: -10px;
+}
+
+.hometitl {
+  margin-top: 10px;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+  color: #e51d39;
+}
+
+.actiontitle {
+  font-size: 30px;
+}
+
+.actioncont {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.banktitle {
+  font-size: 25px;
+  text-align: left;
+}
+
+.donatecont {  
+  font-size: 18px;
+/*   padding-top: 15px; */
+  padding-bottom: 15px;
+  text-align: left;
+  text-align: justify;
+}
+
+.containeract {
+  padding-top: 50px;
+}
+
+.quote2 {
+  padding: 30px 0px 30px 0px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #E6E6E6;
+}
+
+.footer {
+  background-color: #333333;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px; 
+}
+
+.footlinks > a {
+  color: white;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footlinks > a:hover {
+  color: #e51d39;
+}
+
+.footlinks > a:active {
+  color: #e51d39;
+}
+
+.footlinks {
+
+  padding-top: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.imgs {
+/*   padding-top: 40px; */
+  padding-top: 98px;
+}
+
+.mail > a {
+    color: #535353;
+    font-size: 20px;
+  }
+  .mail {
+
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .iframe {
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+
+  .mail {
+    padding-left: 0px;
+  }
+
+
+@media(max-width:767px){
+    
+    .button {
+      background-color: none ;
+      text-decoration: none;
+      color: #666666;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: transparent;
+  }
+  .homenav {
+    text-align: center;
+  }
+  .b-second {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+  }
+
+  .b-third {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+  }
+
+  .b-first {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+  }
+  .img-overlay {
+    padding-top: 30px;
+    margin-left: -235px;
+  }
+  .container1 {
+    margin-top: 162px;
+  }
+  .firsthead {
+    font-size: 25px;
+  }
+  .secondimg {
+    padding-top: 40px ;
+  }
+
+  .footlinks > a {
+    font-size: 11px;
+  }
+
+  .navtitle {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 162px;
+  }
+  .navelements a, li{
+    text-align: center;
+    font-size: 15px;
+  }
+  .img1 {
+    padding-left: 76px;
+    padding-bottom: 50px;
+  }
+  .wallotext {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .whatwedocont {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .emailtitl, .banktitle {
+    text-align: center;
+  }
+
+  .donatecont {
+    text-align: le
+  }
+
+  .list > li {
+    text-align: left;
+  }
+  .list {
+    padding-bottom: 50px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .imagegall > img {
+      text-align: center;
+      padding: 20px 70px;
+  }
+  .mailadd > a {
+    text-align: center;
+  }
+  .mail > a {
+    color: #535353;
+    font-size: 20px;
+  }
+  .mail {
+
+    text-align: center;
+  }
+  .emailcont {
+    padding-bottom: 70px;
+  }
+
+  .iframe > iframe {
+    width: 90%;
+    height: 450px;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .mumbai {
+    text-align: center;
+  }
+
+  .emailcont {
+    text-align: center;
+  }
+  
+  .addr {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .form-horizontal {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .firstcontent {
+    padding-top: 90px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .donatecont {
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .banktitle {
+    margin-top: 30px;
+  }
+
+}
